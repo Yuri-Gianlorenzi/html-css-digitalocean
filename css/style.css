@@ -30,6 +30,24 @@
 }
 /* /debug */
 
+section {
+  margin: 20px 0;
+}
+
+
 #customer {
-  background-color: #ffffff;
+  background-color: #f3f5f9;
+  margin: 20px o;
+}
+
+#deploy {
+  background-color: white;
+}
+
+#deploy .container .row {
+  height: 100%;
+}
+
+#deploy .container .row .col-sm-4 div{
+  line-height: 1.6;
 }
