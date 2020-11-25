@@ -1,0 +1,27 @@
+/* DEBUG */
+
+.debug .row [class*="col-"] {
+  background-color: pink;
+  border: 1px solid black;
+}
+
+.debug .row {
+  height: 150px;
+  line-height: 150px;
+}
+
+.debug .row [class*="col-"] {
+  height: 100%;
+  text-align: center;
+}
+
+.debug .row .row [class*="col-"] {
+  background-color: coral;
+  border: 2px solid white;
+}
+
+.debug .row .row {
+  padding: 5px;
+}
+
+/* /debug */
