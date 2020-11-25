@@ -17,7 +17,7 @@
 
 .debug .row .row [class*="col-"] {
   background-color: coral;
-  border: 2px solid white;
+  border: 1px solid white;
 }
 
 .debug .row .row {
@@ -50,4 +50,8 @@ section {
 
 #deploy .container .row .col-sm-4 div{
   line-height: 1.6;
+}
+
+#designed {
+  background-color: #f3f5f9;
 }
