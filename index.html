@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -14,14 +15,14 @@
   <header>
     <!-- parte superiore header con navbar -->
     <div class="header_top">
-      <nav class="navbar">
+      <nav class="navbar navbar-fixed-top">
         <div class="container">
           <div class="row h_80">
             <!-- colonna logo -->
             <div class="col-xs-3">
-              <div class="box_logo">
-                <img src="img/logo.png" alt="logo DigitalOcean">
-              </div>
+              <a href="#" class="box_logo">
+                <img class="logo "src="img/logo.png" alt="logo DigitalOcean">
+              </a>
             </div>
             <!-- colonna del menu e dell'hamburger -->
             <div class="col-xs-9">
@@ -29,7 +30,7 @@
                 <!-- hamburger menu, si deve vedere da md in giu -->
                 <div class="col-xs-offset-9 col-xs-3 hidden-lg">
                   <div class="hamb_menu">
-                    <i class="fas fa-bars"></i>
+                    <i aria-hidden class="fas fa-bars" title="Menu"></i>
                   </div>
                 </div>
                 <!-- colonna sx da md in su -->
@@ -66,8 +67,20 @@
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-7">The simplest cloud platform for developers</div>
-          <div class="col-xs-12 col-sm-5">deploy your appin seconds</div>
+          <div class="col-xs-12 col-sm-7 clr_w">
+            <h1>The simplest cloud platform for developers &amp; teams</h1>
+            <p>Deploy, manage, and scale cloud applications faster and more efficently on DigitalOcean. We make managing infrastructure easy for teams and businness, whether you're running one virtual machine or ten thousand.</p>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <div class="jumbo_box bgc_w pad_10">
+              <h2>Deploy your app in seconds.</h2>
+              <h2 class="clr_blue">Get started now.</h2>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <a href="#" class="btn btn-blue">Create your account</a>
+              <a href="#" class="google_signup">Sing up with Google</a>
+            </div>
+          </div>
         </div>
       </div>
 
