@@ -30,9 +30,102 @@
 }
 /* /debug */
 
+/* <i class="fas fa-chevron-right"></i>
+<i class="fas fa-chevron-left"></i>
+<i class="fas fa-chevron-down"></i> */
+
+/* REGOLE GENERALI */
+
 section {
   margin: 20px 0;
 }
+
+/* / REGOLE GENERALI */
+
+/* WARNING BOTTONI */
+
+.btn {
+ /* text-transform: uppercase; */
+ border-radius: 5px;
+ color: white;
+ padding: 5px 5px;
+ text-decoration: none;
+}
+
+.btn-orange {
+  background-color: #fe775a;
+}
+
+.btn-white {
+  border: 1px solid #3f8fff;
+  color: #3f8fff;
+}
+
+.btn-large {
+  padding: 20px;
+}
+
+.btn-blue {
+  background-color: white;
+  color: #32495b;
+}
+
+
+/* BOTTONI */
+
+/* WARNING ALTEZZE */
+
+.h_80 {
+  height: 80px;
+}
+
+/* /ALTEZZE */
+
+/* HEADER */
+
+/* navbar */
+
+.header_top .navbar .container .row {
+  line-height: 80px;
+}
+
+.header_top .navbar .box_logo {
+  width: 100%;
+
+}
+
+.header_top .navbar .box_logo img {
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.navbar .container .row ul li a {
+  color: #031c4e;
+  text-decoration: none;
+}
+
+.nav_log {
+  text-align: right;
+}
+
+.hamb_menu {
+  font-size: 40px;
+  color: #3f8fff;
+  text-align: right;
+}
+/* / navbar */
+
+
+/*  HEADER */
+
 
 
 #customer {

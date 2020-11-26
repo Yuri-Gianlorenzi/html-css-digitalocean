@@ -9,32 +9,46 @@
   <link rel="stylesheet" href="css/style.css">
   <title>DigitalOcean Yuri</title>
 </head>
-<body class="debug">
+<body>
   <!-- header -->
   <header>
     <!-- parte superiore header con navbar -->
     <div class="header_top">
       <nav class="navbar">
         <div class="container">
-          <div class="row">
+          <div class="row h_80">
             <!-- colonna logo -->
             <div class="col-xs-3">
-              logo
+              <div class="box_logo">
+                <img src="img/logo.png" alt="logo DigitalOcean">
+              </div>
             </div>
             <!-- colonna del menu e dell'hamburger -->
             <div class="col-xs-9">
-              <div class="row no-gutter">
+              <div class="row">
                 <!-- hamburger menu, si deve vedere da md in giu -->
-                <div class="col-xs-offset-9 col-xs-3 hidden-md hidden-lg">
-                  hambur
+                <div class="col-xs-offset-9 col-xs-3 hidden-lg">
+                  <div class="hamb_menu">
+                    <i class="fas fa-bars"></i>
+                  </div>
                 </div>
                 <!-- colonna sx da md in su -->
-                <div class="col-xs-offset-0 col-md-6 hidden-xs hidden-sm">
-                  product customer community pricing
+                <div class="col-xs-offset-0 col-lg-6 visible-lg">
+                  <ul>
+                    <li><a href="#">Products <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Customers</a></li>
+                    <li><a href="#">Community <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
                 </div>
                 <!-- colonna destra da md in su -->
-                <div class="col-xs-offset-0 col-md-offset-1 col-md-5 hidden-xs hidden-sm">
-                  docs support login singup
+                <div class="col-xs-offset-0 col-lg-offset-1 col-lg-5 visible-lg">
+                  <ul class="nav_log">
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Support <i class="fas fa-chevron-down"></i></a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#" class="btn btn-white" style="color: #3f8fff;">Sing Up</a></li>
+                  </ul>
                 </div>
               </div>
               <!-- riga innestata -->
@@ -65,7 +79,7 @@
   <!-- MAIN -->
   <main>
     <!-- prima sezione customer -->
-    <section id="customer">
+    <section id="customer" class="debug">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -89,7 +103,7 @@
     <!-- / prima sezione customer -->
 
     <!-- seconda sezione deploy -->
-    <section id="deploy">
+    <section id="deploy" class="debug">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-4">
@@ -112,7 +126,7 @@
     <!-- / seconda sezione deploy -->
 
     <!-- terza sazione designed -->
-    <section id="designed">
+    <section id="designed" class="debug">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -138,7 +152,7 @@
     <!-- / terza sezione designed -->
 
     <!-- quarta sezione features -->
-    <section id="features">
+    <section id="features" class="debug">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -165,7 +179,7 @@
     <!-- / quarta sezione features -->
 
     <!-- quinta sezione services -->
-    <section id="services">
+    <section id="services" class="debug">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -181,7 +195,7 @@
     <!-- / quinta sezione services -->
 
     <!-- sesta sezione development -->
-    <section id="development">
+    <section id="development" class="debug">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -208,7 +222,7 @@
     <!-- / sesta sezione development -->
 
     <!-- settima sezione started -->
-    <section id="started">
+    <section id="started" class="debug">
       <div class="container">
         <div class="row">
           <div class="col-xs-12">
@@ -222,7 +236,7 @@
   <!-- / MAIN -->
 
   <!-- FOOTER -->
-  <footer>
+  <footer class="debug">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-4">copyright</div>
