@@ -44,6 +44,13 @@ section {
   margin: 20px 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
 /* / REGOLE GENERALI */
 
 /* WARNING COLORI */
@@ -54,6 +61,10 @@ section {
 
 .clr_blue {
   color: #3f8fff;
+}
+
+.clr_gray {
+  color: #6f7b97;
 }
 
 .bgc_w {
@@ -113,6 +124,18 @@ section {
 .pad_bt_10 {
   padding: 10px 0;
 }
+
+/* WARNING formattazione testo */
+
+.tt_up {
+  text-transform: uppercase;
+}
+
+.fs_20 {
+  font-size: 20px;
+}
+
+/* formattazione testo */
 
 /* / PADDING */
 
@@ -198,16 +221,37 @@ header .box_logo .logo {
 
 /*  HEADER */
 
+/* MAIN */
 
+/* PRIMA SEZIONE customer */
 
 #customer {
   background-color: #f3f5f9;
-  margin: 20px o;
+  margin: 20px 0;
 }
 
+
+/* / PRIMA SEZIONE customer */
 #deploy {
   background-color: white;
 }
+
+#customer .container .row .box_customer {
+  width: 100%;
+}
+
+#customer .container .row .box_customer img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  #customer .container .row .box_customer img {
+    max-width: 250px;
+  }
+}
+
+
+/* / PRIMA SEZIONE customer */
 
 #deploy .container .row {
   height: 100%;
@@ -232,6 +276,9 @@ header .box_logo .logo {
 #started {
   background-color: #002ba4;
 }
+
+
+/* / MAIN */
 
 footer {
   background-color: #031c4e;
