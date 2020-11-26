@@ -26,7 +26,7 @@
 
 .debug .jumbotron {
   background-color: blue;
-  height: 400px;
+  /* height: 400px; */
 }
 /* /debug */
 
@@ -125,7 +125,15 @@ a:hover {
   padding: 10px 0;
 }
 
+.pad_bt_30 {
+  padding: 30px 0;
+}
+
 /* WARNING formattazione testo */
+
+.text_center {
+  text-align: center;
+}
 
 .tt_up {
   text-transform: uppercase;
@@ -232,26 +240,32 @@ header .box_logo .logo {
 
 
 /* / PRIMA SEZIONE customer */
-#deploy {
-  background-color: white;
-}
 
 #customer .container .row .box_customer {
   width: 100%;
+  height: 100px;
+  line-height: 100px;
 }
 
 #customer .container .row .box_customer img {
   width: 100%;
+  vertical-align: middle;
 }
 
 @media screen and (max-width: 768px) {
   #customer .container .row .box_customer img {
-    max-width: 250px;
+    max-width: 200px;
   }
 }
 
 
 /* / PRIMA SEZIONE customer */
+
+
+
+#deploy {
+  background-color: white;
+}
 
 #deploy .container .row {
   height: 100%;
