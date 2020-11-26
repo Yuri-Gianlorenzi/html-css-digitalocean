@@ -89,6 +89,10 @@ section {
   color: white;
 }
 
+.btn_tblack {
+  color: #5b5b5b;
+  box-shadow: 0px 0 1px 1px #888;
+}
 
 /* BOTTONI */
 
@@ -170,7 +174,8 @@ header .box_logo .logo {
   text-align: center;
 }
 
-.jumbo_box input {
+.jumbo_box input,
+.jumbo_box a {
   margin: 10px 0;
 }
 
