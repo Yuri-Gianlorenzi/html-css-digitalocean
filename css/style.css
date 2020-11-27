@@ -394,6 +394,15 @@ header .box_logo .logo {
 /* / TERZA SEZIONE designed */
 
 
+/* QUARTA SEZIONE features */
+
+#features .features_box {
+  padding: 20px;
+  /* margin: 10px 0; */
+}
+
+/* / QUARTA SEZIONE features */
+
 #services {
   background-color: #0046c4;
 }
