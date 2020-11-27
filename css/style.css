@@ -86,6 +86,10 @@ a:hover {
 .bgc_blue {
   background-color: #006aff;
 }
+
+.bgc_r {
+  background-color: red;
+}
 /* /COLORI */
 
 /* WARNING BOTTONI */
@@ -137,6 +141,10 @@ a:hover {
   padding-left: 0px;
 }
 
+.pad_lr_10 {
+  padding: 0 10px;
+}
+
 .pad_10 {
   padding: 10px;
 }
@@ -157,6 +165,9 @@ a:hover {
 
 /* WARNING MARGIN */
 
+.mrg_lr_10 {
+  margin: 0 10px;
+}
 
 /* / MARGINI */
 
@@ -398,14 +409,51 @@ header .box_logo .logo {
 
 #features .features_box {
   padding: 20px;
-  /* margin: 10px 0; */
 }
 
 /* / QUARTA SEZIONE features */
 
+/* QUINTA SEZIONE SERVICES */
+
 #services {
   background-color: #0046c4;
 }
+
+#services h4 {
+  display: inline-block;
+  text-transform: uppercase;
+  width: 50px;
+  padding-right: 80px;
+  font-size: 15px;
+}
+
+#services .container .row .row > div {
+  min-height: 40px;
+  line-height: 40px;
+}
+
+.services_box {
+  padding: 10px;
+}
+
+#services .services_box .row [class*="col-xs-4"] {
+  text-align: right;
+}
+
+#services .services_box .row [class*="col-xs"]:not( :last-child , :nth-last-child(2)) {
+  border-bottom: 1px solid white;
+}
+
+#services .services_box a {
+  color: #00d7d2;
+}
+
+#services .services_box a:hover {
+  color: white;
+}
+
+
+/* / QUINTA SEZIONE services */
 
 #development {
   background-color: #f3f5f9;
