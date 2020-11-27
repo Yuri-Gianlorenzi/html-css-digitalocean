@@ -307,30 +307,35 @@ header .box_logo .logo {
   height: 100%
 }
 
+#deploy .deploy_box {
+  padding: 10px;
+}
+
 #deploy .deploy_box p {
   margin-bottom: 0px;
 }
 
-#deploy .deploy_box {
-  width: 100%;
-  /* height: 200px; */
-}
-
 @media screen and (min-width: 768px) {
-  .pd_b_20 {
-    padding-bottom: 20px;
-  }
 
+#deploy .deploy_box {
+  min-height: 230px;
+}
 }
 
-.mrgn_b_0 {
-  margin-bottom: 0px;
-}
+
 /* / SECONDA SEZIONE deploy */
+
+/* TERZA SEZIONE designed */
 
 #designed {
   background-color: #f3f5f9;
 }
+
+#designed img {
+  height: 100%;
+}
+/* / TERZA SEZIONE designed */
+
 
 #services {
   background-color: #0046c4;
