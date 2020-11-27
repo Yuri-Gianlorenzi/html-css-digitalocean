@@ -48,6 +48,10 @@ a {
   text-decoration: none;
 }
 
+ul li {
+  list-style: none;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -128,6 +132,13 @@ a:hover {
 .pad_bt_30 {
   padding: 30px 0;
 }
+
+/* / padding */
+
+/* WARNING MARGIN */
+
+
+/* / MARGINI */
 
 /* WARNING formattazione testo */
 
@@ -261,7 +272,7 @@ header .box_logo .logo {
 
 /* / PRIMA SEZIONE customer */
 
-
+/* SECONDA SEZIONE deploy */
 
 #deploy {
   background-color: white;
@@ -271,9 +282,33 @@ header .box_logo .logo {
   height: 100%;
 }
 
-#deploy .container .row .col-sm-4 div{
+#deploy .container .row .row {
+  height: 100%;
+}
+
+#deploy .container .row .col-sm-4 div {
   line-height: 1.6;
 }
+
+#deploy ul li {
+  border-left: 3px solid gray;
+  padding: 10px 0 10px 20px;
+}
+
+#deploy ul li:hover {
+  border-left: 4px solid  #0046c4;
+}
+
+#deploy .row .row {
+  height: 100%
+}
+
+#deploy .deploy_box {
+  width: 100%;
+  height: 250px;
+}
+
+/* / SECONDA SEZIONE deploy */
 
 #designed {
   background-color: #f3f5f9;
