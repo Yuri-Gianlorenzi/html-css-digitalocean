@@ -64,6 +64,10 @@ a:hover {
   color: #3f8fff;
 }
 
+.clr_lightgrey {
+  color: #7a859d;
+}
+
 .clr_gray {
   color: #6f7b97;
 }
@@ -511,13 +515,35 @@ header .box_logo .logo {
 }
 /* / SESTA SEZIONE development */
 
+/* SETTIMA SEZIONE started */
+
 #started {
   background-color: #002ba4;
 }
 
+/* / SETTIMA SEZIONE started */
+
 
 /* / MAIN */
+
+/* FOOTER */
 
 footer {
   background-color: #031c4e;
 }
+
+footer ul {
+  padding-left: 0px;
+}
+
+footer .socialist ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+footer .footer_box ul li a {
+  color: #a1a9ba;
+}
+/* / FOOTER */
