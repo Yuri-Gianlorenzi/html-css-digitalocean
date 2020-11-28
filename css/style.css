@@ -30,9 +30,6 @@
 }
 /* /debug */
 
-/* <i class="fas fa-chevron-right"></i>
-<i class="fas fa-chevron-left"></i>
-<i class="fas fa-chevron-down"></i> */
 
 /* REGOLE GENERALI */
 
@@ -120,6 +117,11 @@ a:hover {
   color: white;
 }
 
+.btn_bw {
+  background-color:  white;
+  color: #3f8fff;
+}
+
 .btn_tblack {
   color: #5b5b5b;
   box-shadow: 0px 0 1px 1px #888;
@@ -187,6 +189,10 @@ a:hover {
 
 .fs_15 {
   font-size: 15px;
+}
+
+.fs_50 {
+  font-size: 50px;
 }
 
 /* formattazione testo */
@@ -455,9 +461,55 @@ header .box_logo .logo {
 
 /* / QUINTA SEZIONE services */
 
+/* SESTA SEZIONE development */
+
 #development {
   background-color: #f3f5f9;
 }
+
+#development img {
+  width: 100%;
+}
+
+
+#development .row .row div:nth-child(odd) {
+  max-height: 320px;
+  line-height: 320px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+
+  #development .row .row div:nth-child(odd) {
+    line-height: 200px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+  #development .row .row div:nth-child(odd) {
+    line-height: 260px;
+  }
+}
+
+.font_w {
+  font-weight: 600;
+}
+
+#development ul li {
+  display: inline-block;
+  text-align: center;
+}
+
+#development ul li {
+  padding: 4px;
+  border: 2px solid #006aff;
+  border-radius: 50%;
+}
+
+#development ul li:hover {
+  background-color: #006aff;
+}
+/* / SESTA SEZIONE development */
 
 #started {
   background-color: #002ba4;
