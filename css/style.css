@@ -171,6 +171,10 @@ a:hover {
 
 /* WARNING MARGIN */
 
+.mrg_t_0 {
+  margin-top: 0;
+}
+
 .mrg_lr_10 {
   margin: 0 10px;
 }
@@ -187,13 +191,22 @@ a:hover {
   text-transform: uppercase;
 }
 
-.fs_20 {
-  font-size: 20px;
+.underline {
+  text-decoration: underline;
+}
+
+.fs_10 {
+  font-size: 5px;
 }
 
 .fs_15 {
   font-size: 15px;
 }
+
+.fs_20 {
+  font-size: 20px;
+}
+
 
 .fs_50 {
   font-size: 50px;
@@ -269,6 +282,15 @@ header .box_logo .logo {
 
 .jumbo_box a {
   width: 100%;
+}
+
+.jumbo_box p {
+  font-size: 10px;
+}
+
+
+.jumbo_box > a {
+  margin-top: 0;
 }
 
 /* icona google con before */
@@ -432,7 +454,7 @@ header .box_logo .logo {
 #services h4 {
   display: inline-block;
   text-transform: uppercase;
-  width: 50px;
+  width: 20%;
   padding-right: 80px;
   font-size: 15px;
 }
@@ -450,7 +472,7 @@ header .box_logo .logo {
   text-align: right;
 }
 
-#services .services_box .row [class*="col-xs"]:not( :last-child , :nth-last-child(2)) {
+#services .services_box > .row:not(:last-child) {
   border-bottom: 1px solid white;
 }
 
@@ -461,8 +483,6 @@ header .box_logo .logo {
 #services .services_box a:hover {
   color: white;
 }
-
-
 /* / QUINTA SEZIONE services */
 
 /* SESTA SEZIONE development */
@@ -547,3 +567,76 @@ footer .footer_box ul li a {
   color: #a1a9ba;
 }
 /* / FOOTER */
+
+/* STICKY */
+#sticky {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  bottom: 15px;
+  right: 15px;
+}
+
+#sticky .sticky_img {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(25, 52, 193, 0.8);
+  border-radius: 5px;
+  background-image: url("../img/shark.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+}
+
+.sticky_text {
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  left: -350%;
+  /* transform: translateX(-100%); */
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(13, 68, 152, 0.8);
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 20px;
+  display: none;
+}
+
+.sticky_point {
+  width: 25%;
+  position: absolute;
+  top: -15%;
+  right: -10%;
+}
+
+.sticky_point p {
+  padding: 1px;
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+}
+
+.sticky_img:hover .sticky_text {
+  display: block;
+}
+
+.sticky_img:hover .arrow-right {
+  display: block;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  display: none;
+}
+
+/* /STICKY */
